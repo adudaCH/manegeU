@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(managing.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+h1 {
+    font-weight: bold;
+}
+
+.list-group-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btn {
+    margin-left: 5px;
+}
+
+@media(max-width:567px) {
+    body{
+        background-image: url(nihul.png);
+        
+    }
+    .container{
+        margin-top: 15em;
+    }
+    h1 {
+        font-size: 2rem;
+        margin-bottom:2em ;
+    }
+    .form-floating{
+        margin-bottom: 2em;
+
+        
+    }
+}
